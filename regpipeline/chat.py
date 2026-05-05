@@ -4,6 +4,7 @@ from langchain_qdrant import QdrantVectorStore
 
 
 client = OpenAI(
+    api_key="REMOVED",
     base_url="https://api.groq.com/openai/v1",
 )
 
