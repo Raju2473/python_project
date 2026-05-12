@@ -3,9 +3,7 @@ from openai import OpenAI  # ✅ only this needed
 from langchain_qdrant import QdrantVectorStore 
 
 
-client = OpenAI(
-    base_url="https://api.groq.com/openai/v1",
-)
+
 
 embeddings = HuggingFaceEmbeddings(
     model_name="sentence-transformers/all-MiniLM-L6-v2"
